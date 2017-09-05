@@ -1,0 +1,22 @@
+{
+  "name": "nodeApiTutorialBr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "knex": "knex --knexfile ./knexfile.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bookshelf": "^0.10.4",
+    "hapi": "^16.5.2",
+    "knex": "^0.13.0",
+    "pg": "^7.3.0"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  }
+}
